@@ -34,11 +34,12 @@ export const About = () => {
             </div>
             <div className="about_buttons">
               <a
-                download
-                href="assets/Polina-Menshikova.pdf"
+                href={process.env.PUBLIC_URL + "/Polina.pdf"}
+                download="Polina.pdf"
                 className="button button--flex"
-              />
-              Download CV <i className="uil uil-download-alt button_icon" />
+              >
+                Download <i className="uil uil-download-alt button_icon" />
+              </a>
             </div>
           </div>
         </div>

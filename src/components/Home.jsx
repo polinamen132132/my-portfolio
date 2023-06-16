@@ -1,14 +1,13 @@
-import myImage from "../assets//perfil.png";
-import fileDownload from "js-file-download";
+import myImage from "../assets/perfil.png";
+import { saveAs } from "file-saver";
 
 export const Home = () => {
+  const fileUrl = process.env.PUBLIC_URL + "Polina.pdf";
+
   const handleDownload = () => {
-    const fileUrl = "/Users/polinamensikova/Desktop/Polina-Menshikova-CV.pdf"; // Replace with your file URL
-    const fileName = "Polina-Menshikova-CV.pdf"; // Replace with your desired filename
-
-    fileDownload(fileUrl, fileName);
+    const fileName = "Polina.pdf";
+    saveAs(fileUrl, fileName);
   };
-
   return (
     <section className="home section" id="home">
       <div className="home_container container grid">
@@ -70,10 +69,12 @@ export const Home = () => {
                 High level expirience in web design and knowledge, producing
                 quality work.
               </p>
-              <a className="button button--flex" onClick={handleDownload}>
-                Download CV
-                <i className="uil uil-file button_icon" />
-              </a>
+              <div className="about_buttons" onClick={handleDownload}>
+                <a className="button button--flex">
+                  Download CV
+                  <i className="uil uil-download-alt button_icon" />
+                </a>
+              </div>
             </div>
           </div>
         </div>
