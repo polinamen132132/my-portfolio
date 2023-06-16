@@ -2,10 +2,10 @@ import myImage from "../assets/perfil.png";
 import { saveAs } from "file-saver";
 
 export const Home = () => {
-  const fileUrl = process.env.PUBLIC_URL + "Polina.pdf";
+  const fileUrl = process.env.PUBLIC_URL + "Polina-Menhikova-CV.pdf";
 
   const handleDownload = () => {
-    const fileName = "Polina.pdf";
+    const fileName = "Polina-Menhikova-CV.pdf";
     saveAs(fileUrl, fileName);
   };
   return (
