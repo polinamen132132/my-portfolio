@@ -34,13 +34,6 @@ export const ContactMe = () => {
       <div className="contact_container container grid">
         <div>
           <div className="contact_information">
-            <i className="uil uil-phone contact_icon" />
-            <div>
-              <h3 className="contact_title">Call Me</h3>
-              <span className="contact_subtitle">604-499-23-46</span>
-            </div>
-          </div>
-          <div className="contact_information">
             <i className="uil uil-envelope contact_icon" />
             <div>
               <h3 className="contact_title">Email</h3>
