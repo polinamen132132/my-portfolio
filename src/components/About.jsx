@@ -35,7 +35,7 @@ export const About = () => {
             <div className="about_buttons">
               <a
                 download
-                href="assets/pdf/Alexa-Cv.pdf"
+                href="assets/Polina-Menshikova.pdf"
                 className="button button--flex"
               />
               Download CV <i className="uil uil-download-alt button_icon" />

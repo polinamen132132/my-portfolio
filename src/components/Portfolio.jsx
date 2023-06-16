@@ -1,6 +1,6 @@
 import { useRef } from "react";
-import iphone from "../assets/Slice-6.png";
-import projectSecond1 from "../assets/Slice-1.png";
+import iphone from "../assets/work-2.png";
+import projectSecond1 from "../assets/work-1.png";
 import projectThird1 from "../assets/work-3.png";
 import { useEffect, useState } from "react";
 
