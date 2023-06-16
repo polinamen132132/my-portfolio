@@ -66,7 +66,7 @@ export const Home = () => {
               <h1 className="home_title">Hi, I'm Polina</h1>
               <h3 className="home_subtitle">Frontend developer</h3>
               <p className="home_description">
-                High level expirience in web design and knowledge, producing
+                Experienced in web development and knowledgeable, I produce
                 quality work.
               </p>
               <div className="about_buttons" onClick={handleDownload}>
