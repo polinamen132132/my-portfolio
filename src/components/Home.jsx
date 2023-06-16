@@ -79,7 +79,7 @@ export const Home = () => {
           </div>
         </div>
         <div className="home_scroll">
-          <a href="#qualification" className="home_scroll-button button--flex">
+          <a href="#contact" className="home_scroll-button button--flex">
             <i className="uil uil-mouse-alt home_scroll-mouse" />
             <span className="home_scroll-name">Scroll down</span>
             <i className="uil uil-arrow-down home_scroll-arrow" />
